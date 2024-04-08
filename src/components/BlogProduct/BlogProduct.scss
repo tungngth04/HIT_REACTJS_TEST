@@ -1,0 +1,30 @@
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+.col2 {
+  padding-top: 20px;
+  margin: 0 50px;
+  .table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    & > tr {
+      text-align: center;
+      & > th {
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+
+      & > td {
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+    }
+  }
+}
